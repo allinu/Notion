@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '858eee0262e740148d2591d9acb61fe7',
+  rootNotionPageId: '8d938749cc9d443799d1e43af930dca3',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -14,7 +14,7 @@ export default siteConfig({
   author: '西片',
 
   // open graph metadata (optional)
-  description: '和你分享 Hack The Box 相关内容',
+  description: '和你分享 前端开发、网络安全等 相关内容',
 
   // social usernames (optional)
   github: 'allinu',
