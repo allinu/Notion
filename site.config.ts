@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: "西片 Hack The Box",
+  name: "西片的秘密花园",
   domain: 'notion.allinu.vercel.app',
   author: '西片',
 
   // open graph metadata (optional)
-  description: '和你分享 前端开发、网络安全等 相关内容',
+  description: '和你分享 前端开发、网络安全等计算机的相关内容',
 
   // social usernames (optional)
   github: 'allinu',
