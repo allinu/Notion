@@ -1,4 +1,4 @@
-import { siteConfig } from './lib/site-config'
+import {siteConfig} from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
@@ -14,7 +14,7 @@ export default siteConfig({
   author: '西片',
 
   // open graph metadata (optional)
-  description: '和你分享 前端开发、网络安全等计算机的相关内容',
+  description: '和你分享 网络安全 前端开发 等计算机的相关内容',
 
   // social usernames (optional)
   github: 'allinu',
@@ -45,16 +45,20 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Kali 百宝箱',
+      pageId: '2a8b4f8ee1d448deab12c847c7e68fc0'
+    },
+    {
+      title: 'Hack The Box',
+      pageId: '858eee0262e740148d2591d9acb61fe7'
+    },
+    {
+      title: '等保测评',
+      pageId: '23780c419ceb4bd3867f1c96e3ded929'
+    }
+  ]
 })
