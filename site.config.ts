@@ -49,7 +49,7 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Kali 百宝箱',
+      title: '网络安全百宝箱',
       pageId: '2a8b4f8ee1d448deab12c847c7e68fc0'
     },
     {
