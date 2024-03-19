@@ -57,8 +57,8 @@ export default siteConfig({
       pageId: '858eee0262e740148d2591d9acb61fe7'
     },
     {
-      title: '等保测评',
-      pageId: '23780c419ceb4bd3867f1c96e3ded929'
+      title: 'ATT&CK',
+      pageId: '1a39f0a2d5ce42f6800a7cc9c5e93bd9'
     }
   ]
 })
