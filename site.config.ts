@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '8d938749cc9d443799d1e43af930dca3',
+  rootNotionPageId: '1d18e88a26124f63b49dee4865aca2bc',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -50,15 +50,15 @@ export default siteConfig({
   navigationLinks: [
     {
       title: '网络安全百宝箱',
-      pageId: '2a8b4f8ee1d448deab12c847c7e68fc0'
+      pageId: '7fd09acfbced411d9e88d71ba30c3e33'
     },
     {
       title: 'Hack The Box',
-      pageId: '858eee0262e740148d2591d9acb61fe7'
+      pageId: '33607695dc81402ba64dbfc45f0169d7'
     },
     {
       title: 'ATT&CK',
-      pageId: '1a39f0a2d5ce42f6800a7cc9c5e93bd9'
+      pageId: '025935aede1d4421819b68c2328b71d9'
     }
   ]
 })
