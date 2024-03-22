@@ -49,6 +49,10 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: '西片的笔记',
+      pageId: '1d18e88a26124f63b49dee4865aca2bc'
+    },
+    {
       title: '网络安全百宝箱',
       pageId: '7fd09acfbced411d9e88d71ba30c3e33'
     },
