@@ -49,11 +49,15 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: '西片的笔记',
+      pageId: '1d18e88a26124f63b49dee4865aca2bc'
+    },
+    {
       title: '网络安全百宝箱',
       pageId: '7fd09acfbced411d9e88d71ba30c3e33'
     },
     {
-      title: 'Hack The Box',
+      title: 'HackTheBox',
       pageId: '33607695dc81402ba64dbfc45f0169d7'
     },
     {
