@@ -64,5 +64,10 @@ export default siteConfig({
       title: 'ATT&CK',
       pageId: '025935aede1d4421819b68c2328b71d9'
     }
-  ]
+  ],
+  // uncomment gisucs config to enable gisucs, get these keys from https://giscus.app/
+  giscusRepo: "allinu/comments",
+  giscusRepoId: "MDEwOlJlcG9zaXRvcnkzNjY5MjIwNzQ=",
+  giscusCategory: "General",
+  giscusCategoryId: "DIC_kwDOFd7JWs4CTncW",
 })
